@@ -1,0 +1,365 @@
+.navbar{
+    display: flex; 
+    background-color: rgb(44, 44, 69);
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    color: #192d3f;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px 30px;
+}
+h1.ban-head {
+    margin-bottom: 228px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+}
+.navbar ul{
+    overflow:auto;
+    margin-right: 20px;
+    
+   
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 15px;
+  
+}
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 27px;
+    font-weight: 500;
+    color: darkslategrey;
+   
+}
+.navbar li:hover{
+    background-color: rgba(190, 190, 194, 0.673);
+    border-radius: 30px;
+}
+.home{
+    padding-top: 0px;
+    position: relative;
+}
+.home img{
+    background-size: cover;
+}
+.home .btn{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.home .btn:hover{
+    background-color: gray;
+}
+.home .btn a{
+    text-decoration: none;
+    color: white;
+}
+.about
+{
+    background-color: rgb(234, 231, 231);
+    overflow: auto;
+}
+.about h2{
+    padding-left: 30px;
+}
+.about p{
+    margin: 0 2%;
+    width:20%;
+    float: left;
+    background-color: aqua;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.modal-backdrop.show {
+    opacity: var(--bs-backdrop-opacity);
+    position: relative;
+}
+section#services {
+    height: 450px;
+    margin-top: 100px;
+}
+.choice1.bg1 {
+    background-color: #e2dcfe;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+i.fa.fa-eraser.icons {
+    background-color: #bbaefa;
+    padding: 10px;
+    color: #6d5eb7;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+p.card-para1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.choice1.bg2 {
+    background-color: #174f74;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+i.fa.fa-desktop.icons {
+    background-color: white;
+    padding: 10px;
+    color: #174f74;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+p.card-para2 {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+h2.heading {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.choice1.bg3 {
+    background-color: #dcf7fe;
+    padding: 20px;
+    border-radius: 4px;
+}
+p.card-para3 {
+    color: black;
+    font-family: sans-serif;
+
+}
+
+
+
+i.fa.fa-signal.icons {
+    padding: 10px;
+    background-color: #d0f3fc;
+    color: #72eaff;
+    border-radius: 4px;
+    font-size: 25px;
+}
+
+video.d-block.banner-img1 {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+h1.welcome {
+    position: absolute;
+    margin-top: -445px;
+    margin-left: 500px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+h1.heading {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #205050;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.card {
+    height: 150px !important;
+    background-color: rgb(90, 143, 158) !important;
+    transition: all 2s ease-in-out;
+
+}
+
+h1.heading {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #205050;
+    text-transform: capitalize;
+}
+section#feedback {
+    height: 550px;
+    background-color: #efeff7;
+}
+
+i.fa.fa-arrow-left.feedback {
+    color: #b4b4ca;
+}
+
+i.fa.fa-arrow-right.feedback {
+    color: #b4b4ca;
+}
+
+img.feedback-img {
+    width: auto;
+    border-radius: 40px;
+}
+
+.feedback-box.d-flex.p-2 {
+    background-color: white;
+}
+
+h2.feedback-heading.ms-2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.feedback-box.pt-4:hover {
+    background-color: #f4f4f7;
+}
+
+.feedback-box.pt-4 {
+    background-color: white;
+    border-radius: 0px 24px 0px 0px;
+}
+
+i.fa.fa-star.pt-2.p-1.justify-content-end.feedback-stars {
+    color: orange;
+}
+
+span.sub-head {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #babac2;
+}
+.footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .icon {
+    margin-right: 15px;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.footer .footer-links {
+    margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+.footer .footer-links ul a {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+    color: #fff;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .credits {
+    padding-top: 4px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer .credits a {
+    color: #fff;
+    text-decoration: none;
+}
+section.opportunity{
+    height: 550px;
+}
+
+.card:hover {
+    height:400px !important;
+    width: auto !important;
+    background-color: rgb(26, 47, 48) !important;
+
+}
+
+.card-body {
+    opacity: 0 !important;
+    transition: all 2.5s ease-in-out !important;
+    color: azure !important;
+}
+
+.card:hover .card-body {
+    opacity: 1 !important;
+}
+
+h2.card-heading {
+    font-family: sans-serif;
+    color: azure;
+    font-weight: 700;
+}
+
+h2.card-heading .card .card-body:hover {
+    color: #082323;
+}

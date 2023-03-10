@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Levels</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar  sticky-top" style="
+        background-color: gainsboro;">
+      <label class="logo">Success</label>
+      <!-- <h1 class="logo">Success</h1> -->
+      <ul class="mt-3" style="font-size: 20px;">
+        <li><a href="/">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
+            Login
+          </button>
+        </li>
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Login</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form action="/" method="post">
+
+                  <div class="mb-3">
+
+
+                    <label for="formGroupExampleInput" class="form-label">email</label>
+                    <input type="text" required name="email" class="form-control" id="formGroupExampleInput"
+                      placeholder="email">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">password</label>
+                    <input type="password" required name="pass" class="form-control" id="formGroupExampleInput2"
+                      placeholder="pass">
+                  </div>
+
+                  <button class="btn btn-primary" type=""><a style="text-decoration: none; color: white;"
+                      href="/">Login</a></button>
+
+
+
+                </form>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <li>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal1">
+            Sign up
+          </button>
+        </li>
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Sign UP</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form action="" method="post" class="form-control">
+
+                  <div class="mb-3">
+
+
+                    <label for="formGroupExampleInput" class="form-label">id</label>
+                    <input type="text" required name="id" class="form-control" id="formGroupExampleInput"
+                      placeholder="id">
+                  </div>
+
+                  <div class="mb-3">
+
+
+                    <label for="formGroupExampleInput" class="form-label">name</label>
+                    <input type="text" required name="name" class="form-control" id="formGroupExampleInput"
+                      placeholder="name">
+                  </div>
+
+                  <div class="mb-3">
+
+
+                    <label for="formGroupExampleInput" class="form-label">email</label>
+                    <input type="text" required name="email" class="form-control" id="formGroupExampleInput"
+                      placeholder="email">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">password</label>
+                    <input type="text" required name="pass" class="form-control" id="formGroupExampleInput2"
+                      placeholder="pass">
+                  </div>
+
+                  <button class="btn btn-primary" type="submit">sign up</button>
+
+                  <br><br>
+
+
+                </form>
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </ul>
+
+    </nav>
+    <section id="level-banner">
+      <img src="../lvl.jpg" alt="" class="level-img" style="height:600px; width:100%; position:absolute;">
+    </section>
+
+    <section class="levels" style="position:relative;margin-top: 50px;">
+      <div class="container">
+        <ul class="nav nav-pills" role="tablist" style="position:relative">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#home">level1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu1">level 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu2">level 3</a>
+          </li>
+        </ul>
+        <img src="../lvl1.png" class="lvl-vector" alt="" style="position:relative;">
+        <!-- Tab panes -->
+        <div class="tab-content" style="    position: relative; margin-top: 0px;">
+          {{!-- <video loop="true" autoplay="true" muted autoplay loop class="d-block banner-lvl">
+            <source src="level.mp4" class="d-block " type="video/mp4">
+            <source src="level.ogg" class="d-block " type="video/ogg">
+          </video> --}}
+          
+          <div id="level1" class="container tab-pane active"><br>
+            <h3>Level 1</h3>
+            <p class="level1">
+              start your path from the beginning
+            </p>
+            <button class="btn btn-md btn-light" onclick="window.location.href = '/cpp1'">get test</button>
+          </div>
+          <div id="level2" class="container tab-pane fade"><br>
+            <h3>Level 2</h3>
+            <p class="level2">
+              continue your test
+            </p>
+            <button class="btn btn-md btn-light">get test</button>
+          </div>
+          <div id="level3" class="container tab-pane fade"><br>
+            <h3>Level 3</h3>
+            <p class="level3">
+              start your path from the beginning
+            </p>
+            <button class="btn btn-md btn-light">get test</button><br>
+             
+          </div>
+        </div>
+      </div>
+    </section>
+    <button class="btn btn-sm btn-warning" style="margin-top: 50px; position:relative;margin-left:130px"><a href="/op">opportunities</a></button>
+     <button class="btn btn-sm btn-warning" style="margin-top: 50px; position:relative;margin-left:130px"><a href="/resources_cpp1">resources</a></button>
+</body>
+
+</html>
+
+<!--   <button class="custom-btn btn-1" ><a href="cpp/cpp1.html">Level 1</a></button> -->
+{{!-- <button class="custom-btn btn-1" onclick="window.location.href='/cpp1';">Level 1</button>
+
+<!--     <a href="../form.html"><button class="custom-btn btn-1">Level 1</button></a> -->
+<button class="custom-btn btn-2" onclick="">Level 2</button>
+<button class="custom-btn btn-3" onclick="windowOpen3()">Level 3</button>
+<button class="custom-btn btn-4" onclick="windowOpen4()">Level 4</button>
+<button class="custom-btn btn-5" onclick="windowOpen5()">More .. </button>
+</div>
+
+<button class="btn btn-light" style="display: inline-block; margin-left: 560px;"
+  onclick="window.location.href = '/op'">get opportunities</button>
+<button class="btn btn-light" style="display: inline-block;" onclick="window.location.href = '/resources_cpp1'">get
+  resources</button> --}}
